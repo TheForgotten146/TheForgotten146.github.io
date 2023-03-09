@@ -1,0 +1,322 @@
+body {
+    background-color: rgb(231, 226, 226);
+}
+
+.hoki {
+    font-size: 3rem;
+    padding-right: 4rem;
+    margin-top: 0.5rem;
+}
+
+.nav {
+    border-bottom: 1px solid rgb(194, 193, 193);
+    margin-bottom: 1rem;
+}
+
+.navbar-brand span{
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    margin-bottom: -1rem;
+}
+
+.navbar-brand img {
+    padding-bottom: 3%;
+}
+
+.carousel img {
+    height: 23rem;
+}
+
+.carousel {
+    padding-top: 2rem;
+}
+
+.top-center {
+    position: absolute;
+    top: 2rem;
+    right: 2.2rem;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 2rem;
+    right: 8.1rem;
+    background-color: rgb(193, 254, 254);
+}
+
+.top-rightt:hover {
+    background-color: aquamarine;
+    border-radius: 20%;
+}
+
+.yes {
+    padding-left: 7rem;
+}
+
+.bg1 {
+    background-color: bisque;
+    margin-bottom: 2rem;
+}
+
+.bg2 {
+    background-color: bisque;
+}
+
+.about {
+    width: 83%;
+    height: 28rem;
+    margin-top: 3rem;
+}
+
+.side-pic {
+    margin-top: 3rem;
+}
+
+.about-us {
+    font-family: sans-serif;
+    margin: 2rem auto;
+    text-align: center;
+    color: burlywood;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+  }
+
+.about-us:before {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 5px;
+    background: black;
+    left: 0rem;
+    top: 50%;
+    position: absolute;
+}
+
+.about-us:after {
+    content: "";
+    display: block;
+    width: 2rem;
+    height: 5px;
+    background: black;
+    right: 0rem;
+    top: 50%;
+    position: absolute;
+}
+
+@media (min-width: 320px) {
+    .first-side-pic {
+        width: 10rem;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+
+    .sec-side-pic {
+        width: 10rem;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+
+    .children {
+        width: auto;
+        height: 15rem;
+    }
+
+    .up {
+        font-size: 0.9rem;
+    }
+
+    .top-center {
+        text-align: center;
+        padding-left: 3rem;
+    }
+
+    .about-us {
+        font-family: sans-serif;
+        margin: 2rem auto;
+        text-align: center;
+        color: blACK;
+        font-size: 40px;
+        max-width: 600px;
+        position: relative;
+      }
+    
+    .about-us:before {
+        content: "";
+        display: block;
+        width: 1.5rem;
+        height: 5px;
+        background: black;
+        left: -0.5rem;
+        top: 50%;
+        position: absolute;
+    }
+    
+    .about-us:after {
+        content: "";
+        display: block;
+        width: 1.5rem;
+        height: 5px;
+        background: black;
+        right: -0.5rem;
+        top: 50%;
+        position: absolute;
+    }
+}
+
+/* // `xs` returns only a ruleset and no media query */
+/* // ... { ... } */
+
+@media (min-width: 375px) { 
+    .htags {
+        margin-left: -1.4rem;
+        padding-top: 3rem;
+        padding-left: 12px;
+    }
+
+    .children {
+        height: 15rem;
+        width: 23rem;
+    }
+
+    .first-side-pic {
+        height: 12rem;
+        width: 11rem;
+        margin-top: 2rem;
+    }
+
+    .sec-side-pic {
+        height: 12rem;
+        width: 11rem;
+        margin-top: 4.7rem;
+    }
+
+    .htags {
+        margin-left: 0.1rem;
+    }
+
+    .yes {
+        padding-left: 5rem;
+    }
+
+    .na1 {
+        display: none;
+    }
+
+    .up {
+        font-size: 1rem;
+    }
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 425px) { 
+    .htags {
+        margin-left: 1.6rem;
+    }
+
+    .yes {
+        padding-left: 5rem;
+    }
+
+    .top-center {
+        position: absolute;
+        top: 2rem;
+        right: 4rem;
+    }
+
+    .bottom-center {
+        position: absolute;
+        bottom: 2rem;
+        right: 9.6rem;
+        background-color: rgb(193, 254, 254);
+    }
+
+    .crafts-pics {
+        padding-left: 2.3rem;
+    }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) { 
+    .about-us {
+        font-family: sans-serif;
+        margin: 2rem auto;
+        text-align: center;
+        color: blACK;
+        font-size: 40px;
+        max-width: 600px;
+        position: relative;
+      }
+    
+    .about-us:before {
+        content: "";
+        display: block;
+        width: 7rem;
+        height: 5px;
+        background: black;
+        left: 2rem;
+        top: 50%;
+        position: absolute;
+    }
+    
+    .about-us:after {
+        content: "";
+        display: block;
+        width: 7rem;
+        height: 5px;
+        background: black;
+        right: 2rem;
+        top: 50%;
+        position: absolute;
+    }
+
+    .children {
+        height: 17rem;
+        width: 27rem;
+    }
+
+    .first-side-pic {
+        height: 20rem;
+        width: 28rem;
+    }
+
+    .side-pic {
+        padding-top: 2rem;
+    }
+
+    .sec-side-pic {
+        height: 20rem;
+        width: 28rem;
+    }
+
+    .crafts-pics {
+        padding-right: 2.3rem;
+    }
+
+    .craftss {
+        margin-left: 5rem;
+    }
+
+    .na2 {
+        display: none;
+    }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) { 
+    .children {
+        height: 20rem;
+        width: 35rem;
+    }
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1399.98px) {
+}
